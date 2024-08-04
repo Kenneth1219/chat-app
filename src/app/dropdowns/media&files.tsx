@@ -16,6 +16,7 @@ export const MediaAndFiles = () => {
           <img
             className={` ${rotate ? "rotate-90" : ""}`}
             src="./icons/dropdown_icon.svg"
+            alt=""
           />
         </summary>
         <div className=" mt-2 flex flex-col gap-y-2">
@@ -23,6 +24,7 @@ export const MediaAndFiles = () => {
             <img
               className=" bg-[#D9D9D9] rounded-full h-[30px] p-2"
               src="../icons/media_and_files/attachment_icon.svg"
+              alt=""
             />
             <p>Attachment</p>
           </div>
@@ -30,6 +32,7 @@ export const MediaAndFiles = () => {
             <img
               className=" bg-[#D9D9D9] rounded-full h-[30px] p-2"
               src="../icons/media_and_files/media_icon.svg"
+              alt=""
             />
             <p>Media</p>
           </div>

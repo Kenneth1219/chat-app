@@ -34,6 +34,7 @@ export const ChatMembers = () => {
           <img
             className={` ${rotate ? "rotate-90" : ""}`}
             src="./icons/dropdown_icon.svg"
+            alt=""
           />
         </summary>
         {members.map((members) => (
@@ -55,6 +56,7 @@ export const ChatMembers = () => {
               <img
                 className=" w-[20px] h-[20px]"
                 src="./icons/kebab_icon.svg"
+                alt=""
               />
             </div>
           </div>

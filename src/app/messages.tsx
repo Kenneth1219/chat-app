@@ -35,10 +35,12 @@ export default function Messages() {
             <div className="flex-row flex">
               <img
                 src={image.pic}
+                alt=""
                 className="w-[40px] h-[40px] border-2 border-gray-300 bg-white rounded-full"
               />
               <img
                 src={image.pic}
+                alt=""
                 className="w-[40px] h-[40px] border-2 border-gray-300 bg-white rounded-full ml-[-25px] mt-[-10px]"
               />
             </div>

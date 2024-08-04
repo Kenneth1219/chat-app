@@ -16,24 +16,27 @@ export default function Home() {
     <main className="flex h-screen w-full flex-row border">
       <div className=" w-[6%] flex flex-col pt-4 pb-4">
         <div className="flex h-[50%] flex-col items-center gap-y-5">
-          <img className="w-[70px]" src="./icons/i7_logo.svg" />
+          <img className="w-[70px]" src="./icons/i7_logo.svg" alt="" />
 
           <button>
             <img
               className="w-[45px] hover:bg-[#D9D9D9] rounded p-1"
               src="./icons/msg_icon.svg"
+              alt=""
             />
           </button>
           <button>
             <img
               className="w-[45px] hover:bg-[#D9D9D9] rounded p-1"
               src="./icons/group_icon.svg"
+              alt=""
             />
           </button>
           <button>
             <img
               className="w-[45px] hover:bg-[#D9D9D9] rounded p-1"
               src="./icons/location_icon.svg"
+              alt=""
             />
           </button>
         </div>
@@ -41,17 +44,18 @@ export default function Home() {
           <img
             className=" w-[40px] border-gray-400 border-[3px] rounded-full"
             src="./images/user_image.png"
+            alt=""
           />
         </div>
       </div>
       <div className=" w-[30%] border-l p-4 overflow-scroll h-scree">
         <div className=" flex flex-row justify-between items-center">
           <p>Chats</p>
-          <img src="./icons/edit_icon.svg" />
+          <img src="./icons/edit_icon.svg" alt="" />
         </div>
         <div className=" flex flex-row mt-4">
           <button className="flex justify-center items-center border text-[15px border-r-0 rounded-l-[20px] pl-3 h-[40px]">
-            <img src="./icons/search_icon.svg" className="h-[25px]" />
+            <img src="./icons/search_icon.svg" alt="" className="h-[25px]" />
           </button>
           <input
             type="text"
@@ -70,10 +74,12 @@ export default function Home() {
               <div className="flex-row flex">
                 <img
                   src={image.pic}
+                  alt=""
                   className="w-[40px] h-[40px] border-2 border-gray-300 bg-white rounded-full"
                 />
                 <img
                   src={image.pic}
+                  alt=""
                   className="w-[40px] h-[40px] border-2 border-gray-300 bg-white rounded-full ml-[-25px] mt-[-10px]"
                 />
               </div>
@@ -82,10 +88,10 @@ export default function Home() {
           </div>
           <div className=" w-[50%] flex justify-end items-center gap-x-2">
             <button className=" w-[25px]">
-              <img src="./icons/add_icon.svg" />
+              <img src="./icons/add_icon.svg" alt="" />
             </button>
             <button className=" w-[25px]">
-              <img src="./icons/kebab_icon.svg" />
+              <img src="./icons/kebab_icon.svg" alt="" />
             </button>
           </div>
         </div>
@@ -100,10 +106,12 @@ export default function Home() {
             <div className="flex-row flex">
               <img
                 src={image.pic}
+                alt=""
                 className="w-[60px] h-[60px] border-2 border-gray-300 bg-white rounded-full"
               />
               <img
                 src={image.pic}
+                alt=""
                 className="w-[60px] h-[60px] border-2 border-gray-300 bg-white rounded-full ml-[-25px] mt-[-10px]"
               />
             </div>
@@ -111,11 +119,16 @@ export default function Home() {
           <p className=" text-[15px]">Mansala Law Firm</p>
           <div className="w-full flex flex-row gap-x-2 items-center justify-center">
             <button className=" bg-[#D9D9D9] rounded-full p-1 opacity-80">
-              <img src="./icons/mute_icon.svg" className="w-[20px] h-[20px]" />
+              <img
+                src="./icons/mute_icon.svg"
+                alt=""
+                className="w-[20px] h-[20px]"
+              />
             </button>
             <button className=" bg-[#D9D9D9] rounded-full p-1 opacity-80">
               <img
                 src="./icons/search-btn_icon.svg"
+                alt=""
                 className="w-[20px] h-[20px]"
               />
             </button>

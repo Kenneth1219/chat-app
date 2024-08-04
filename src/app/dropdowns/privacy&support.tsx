@@ -15,6 +15,7 @@ export const PrivacyAndSupport = () => {
           <img
             className={` ${rotate ? "rotate-90" : ""}`}
             src="./icons/dropdown_icon.svg"
+            alt=""
           />
         </summary>
         <div className=" mt-2 flex flex-col gap-y-2">
@@ -22,6 +23,7 @@ export const PrivacyAndSupport = () => {
             <img
               className=" h-[30px] bg-[#D9D9D9] rounded-full p-2"
               src="./icons/privacy_and_support/block_icon.svg"
+              alt=""
             />
             <p>Block people</p>
           </div>
@@ -29,6 +31,7 @@ export const PrivacyAndSupport = () => {
             <img
               className=" h-[30px] bg-[#D9D9D9] rounded-full p-2"
               src="./icons/privacy_and_support/report_icon.svg"
+              alt=""
             />
             <p>Report a problem</p>
           </div>
