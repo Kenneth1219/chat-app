@@ -3,7 +3,7 @@ import React from "react";
 export default function LandingMessages() {
   return (
     <>
-      <div className=" h-[88%]">commander Paula</div>
+      <div className=" h-[88%]"></div>
 
       <div className=" h-[12%] flex items-center justify-center p-4">
         <div className=" w-full flex flex-row justify-center gap-x-2">
